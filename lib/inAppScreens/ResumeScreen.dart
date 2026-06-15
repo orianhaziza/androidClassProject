@@ -122,12 +122,12 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
                           onPressed: () {
                             //action for button 1
                           },
-                          icon: const Icon(Icons.add_link, size: 26),
+                          icon: const Icon(Icons.add_link, size: 20),
                           label: const Text(
                             'Upload from link',
                             style: TextStyle(
                               fontFamily: 'MyCaveat',
-                              fontSize: 28,
+                              fontSize: 20,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -150,12 +150,12 @@ class _DownloadsScreenState extends State<DownloadsScreen> {
                           onPressed: () {
                             // action for button 2
                           },
-                          icon: const Icon(Icons.devices, size: 26),
+                          icon: const Icon(Icons.devices, size: 18),
                           label: const Text(
                             'Upload from device',
                             style: TextStyle(
                               fontFamily: 'MyCaveat',
-                              fontSize: 28,
+                              fontSize: 18,
                               fontWeight: FontWeight.bold,
                             ),
                           ),

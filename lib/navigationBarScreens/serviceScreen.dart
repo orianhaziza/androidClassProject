@@ -11,7 +11,7 @@ class ServiceScreen extends StatefulWidget {
 class _ServiceScreenState extends State<ServiceScreen> {
   final List<String> options = [
     'Music', 'Videos', 'Photos', 'Documents',
-    'attempt 5', 'attempt 6', 'attempt 7',
+    'service 5', 'service 6', 'service 7',
   ];
   final List<IconData> icons = [
     Icons.music_note,
@@ -118,7 +118,7 @@ class _ServiceScreenState extends State<ServiceScreen> {
                 },
               ),
             ),
-            const SizedBox(height: 90), // leaves room for the floating button
+            const SizedBox(height: 10), // leaves room for the floating button
           ],
         ),
         Positioned(
